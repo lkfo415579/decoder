@@ -1,0 +1,49 @@
+# Config files from CMake
+src/common/version.h
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# python compiled files
+*.pyc
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Temporaty files created by editors
+.*.sw*
+*~
+
+# CMake files
+build
+
+# Examples
+examples/*/*.gz
+examples/mnist/*ubyte
+
+# Contrib
+/.ycm_extra_conf.py
+/.vimrc
